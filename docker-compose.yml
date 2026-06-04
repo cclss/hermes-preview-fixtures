@@ -1,0 +1,7 @@
+# preview-fixture: docker — runnable 프로젝트(package.json/mix.exs/index.html) 없이
+# docker-compose.yml 만 존재 → daemon Inspector 가 container_only 로 진단.
+services:
+  web:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
