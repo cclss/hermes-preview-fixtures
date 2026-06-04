@@ -1,0 +1,13 @@
+# preview.toml — 개런티 사다리 "선언"(최상단). daemon Manifest.read/normalize 파싱.
+model = "server"
+
+[serve]
+command = "mix phx.server"
+port_env = "PORT"
+
+[db]
+migrate = "mix ecto.migrate"
+
+[env]
+# required=false → 미설정이어도 부팅 비차단(옵셔널 선언).
+STRIPE_KEY = { required = false }
