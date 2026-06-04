@@ -1,0 +1,12 @@
+{
+  "name": "preview-fixture-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html dist/index.html && cp app.css dist/app.css"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
