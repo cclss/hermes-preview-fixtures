@@ -1,0 +1,5 @@
+/* PREVIEW E2E STATIC stylesheet */
+:root { color-scheme: light; }
+body { font-family: system-ui, sans-serif; margin: 2rem; }
+h1 { color: #0a7d28; }
+[data-testid="marker"] { font-weight: 600; }
